@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="width=device-width, initial-scale=1.0">
+	<title>Explore India</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+  <style>
+  .sec3{
+        width: 100%;
+        background-color: rgba(74, 150, 185, 0.534);
+        min-width: 600px;
+        overflow: hidden;
+        display: flex;
+      }
+
+  .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 0 4px;
+      width: 100%;
+      min-width: 600px;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+        /* Create four equal columns that sits next to each other */
+  .column {
+      -ms-flex: 33.33%; /* IE10 */
+      flex: 33.33%;
+      min-width: 33.33%;
+      padding: 0 4px;
+      float: left;
+      box-sizing: border-box;
+    }
+  
+  .bottom-img{margin-bottom: 8px;}
+
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    .extra {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    }
+  }
+
+  .highlght {
+    position: relative;
+  }
+
+  .highlights{
+      background-color: black;
+      padding-left: 50px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      width: 100%;
+      box-sizing: border-box;
+      mid-width: 600px;
+  }
+
+  .highlightimg {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin-top: 8px;
+    vertical-align: middle;
+    position: relative;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+
+  .highlght:hover .overlay {
+    opacity: 0.5;
+  }
+
+  .overtext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+	<header>
+		<a href = "index.html"><img class= "logo" src = "images/temp-logo.png"></a>
+		<h2 class = "headertext">LEARN FOR LOVE</h2>
+        <button class= "top button" onclick="window.location.href = 'blog.html'">Log Out</button>
+    </header>
+
+    <nav class = "navigation">
+        <a class = "menu-item" style= "margin-left: 30px;" href = "index.html">Home</a>
+        <a class = "menu-item" href = "volunteer.html">Catalog</a>
+        <a class = "menu-item" href = "lifestyle.html">Contribute</a>
+        <a class = "menu-item" href = "projects.html">Collaborate</a>
+        <a class = "menu-item" href = "about.html">About</a>
+    </nav>
+
+  <div class="sec1" style = "">
+    <div class="display-middle" style="white-space:nowrap;">
+      <span class="center-page-text">KARNATAKA, INDIA</span>
+    </div>
+  </div>
+
+<div class="sec3"> 
+  <div class = "row">
+    <div class="column">
+      <div class="highlght">
+        <img src="images/kA.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Temple</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/kB.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Spices</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/kC.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Dance</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column extra">
+      <div class="highlght">
+        <img src="images/kD.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">City</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/kE.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Celebration</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/kF.jpg" class = "highlightimg bottom-img">
+        <div class="overlay">
+          <div class="overtext">Landmark</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="highlght">
+        <img src="images/kG.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Food</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/kH.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Fashion</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/kJ.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Commercial Street</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<footer>
+  <div class= "footerinfo">
+      <a class = "link" href="mailto:havingfunwithdiy@gmail.com">Contact</a>
+      <p>© Pink Hat Hackers PixelHacks IV</p>
+  </div>
+</footer>
+   
+</body>
+</html>
