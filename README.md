@@ -29,7 +29,7 @@ As time goes on, we hope to add more information to places and add more interact
 ![image 3](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/923/182/datas/gallery.jpg)
 
 ### contributers
-Sahana Moogi [@ssmoogi](https://github.com/ssmoogi)
+Sahana Moogi [@ssmoogi](https://github.com/ssmoogi) \
 Juliette Furcatte [@juliettefurcatte](https://devpost.com/juliettefurcatte)
 
 💖🌐 Thank you for visiting this repo!!
